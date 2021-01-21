@@ -15,10 +15,6 @@ class BoostAT160 < Formula
     sha256 "489a6420dc137a356ad300cb10a519073adbf99573515601f6bb87ff5a6622b3" => :yosemite
   end
 
-  keg_only :versioned_formula
-
-  disable! date: "2025-09-01", because: :versioned_formula
-
   uses_from_macos "bzip2"
   uses_from_macos "zlib"
 

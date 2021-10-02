@@ -9,10 +9,6 @@ class BoostAT160 < Formula
     sha256 cellar: :any
     sha256 catalina: "bc4447b1ead8d28fb311244e7358484baecd5ee249d6348ba8d1adc5413eb54c"
     sha256 mojave: "7a94d461c3b8a3859ad52e87ad82c7fc18f36b53a3a85dea88faa733a5c9f000"
-    sha256 high_sierra: "50568fe023b32cf9664b023d65d43d7f8e79bfa73415186f63a3faf0b4ae7cc8"
-    sha256 sierra: "8ab5b0be67a534c2340b488d27ebc51ccb088c49735949da4c0099359c6ef9f1"
-    sha256 el_capitan: "f6ef8ae275a8d0c03969eceb248235dbeafd4316d1c97f6a9b79d8aa4ef71027"
-    sha256 yosemite: "489a6420dc137a356ad300cb10a519073adbf99573515601f6bb87ff5a6622b3"
   end
 
   uses_from_macos "bzip2"

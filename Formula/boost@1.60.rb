@@ -6,7 +6,7 @@ class BoostAT160 < Formula
   license "BSL-1.0"
 
   bottle do
-    cellar :any
+#     cellar :any
     sha256 "bc4447b1ead8d28fb311244e7358484baecd5ee249d6348ba8d1adc5413eb54c" => :catalina
     sha256 "7a94d461c3b8a3859ad52e87ad82c7fc18f36b53a3a85dea88faa733a5c9f000" => :mojave
     sha256 "50568fe023b32cf9664b023d65d43d7f8e79bfa73415186f63a3faf0b4ae7cc8" => :high_sierra
